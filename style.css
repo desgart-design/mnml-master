@@ -56,20 +56,20 @@ section.header img
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 1rem;
+    gap: clamp(4px, 2vw, 5px);
     padding: 1fr;
 }
 
 .item-a 
 {
     display: flex;
-    gap: 1rem;
+    gap: clamp(4px, 2vw, 5px);
 }
 
 .item-b 
 {
     display: flex;
-    gap: 1rem;
+    gap: clamp(4px, 2vw, 5px);
 }
 
 section.links .link-items
@@ -78,7 +78,7 @@ section.links .link-items
     width: auto;
     height: auto;
     margin-bottom: 16px;
-    gap: 1rem;
+    gap: clamp(4px, 2vw, 5px);
 }
 
 section.links .link-items a
