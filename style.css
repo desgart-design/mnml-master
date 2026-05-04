@@ -56,18 +56,20 @@ section.header img
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    gap: 1rem;
+    padding: 1fr;
 }
 
 .item-a 
 {
     display: flex;
+    gap: 1rem;
 }
 
 .item-b 
 {
     display: flex;
+    gap: 1rem;
 }
 
 section.links .link-items
@@ -76,6 +78,7 @@ section.links .link-items
     width: auto;
     height: auto;
     margin-bottom: 16px;
+    gap: 1rem;
 }
 
 section.links .link-items a
